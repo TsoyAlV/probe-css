@@ -1,6 +1,5 @@
 .logo_site {
-  background-color: #60BDCE;
-  background-image: url(../images/logo_background.jpg);
+  background-color: black;
   overflow: auto;
   border: 2px solid #04859D;
 }
@@ -16,6 +15,12 @@
   top: 5px;
   right: 10px;
   background-opacity: 0.3;
+  color: white;
+}
+
+.navbar_hiper {
+  color: white;
+  text-decoration: none;
 }
 
 header {
@@ -27,6 +32,7 @@ header {
   position: relative;
   top: -30px;
   font-size: 1.5em;
+  border-opacity: 90%;
 }
 
 header h1 {
@@ -111,6 +117,15 @@ main h2 {
   transform: scale(1.1)
 }
 
+.staff {
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+.staff:hover {
+  transform: scale(1.1);
+}
 
 footer {
   color: white;
